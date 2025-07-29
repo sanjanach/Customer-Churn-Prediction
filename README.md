@@ -1,4 +1,4 @@
-# Customer Churn Prediction using Machine Learning
+# Proactive Customer Retention with Machine Learning
 
 This project presents a data-driven approach to predicting customer churn for a financial institution. By analyzing customer demographics and banking behavior, this project builds and evaluates machine learning models to identify customers at risk of closing their accounts. The primary goal is to provide the bank with actionable insights to improve customer retention.
 
