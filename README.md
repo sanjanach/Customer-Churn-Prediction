@@ -2,34 +2,20 @@
 
 This project presents a data-driven approach to predicting customer churn for a financial institution. By analyzing customer demographics and banking behavior, this project builds and evaluates machine learning models to identify customers at risk of closing their accounts. The primary goal is to provide the bank with actionable insights to improve customer retention.
 
-## Technologies & Libraries
-- **Languages:** Python
-- **Libraries:**
-    - **Data Manipulation:** Pandas, NumPy
-    - **Data Visualization:** Matplotlib, Plotly
-    - **Machine Learning:** Scikit-learn, XGBoost
-
-## How to Run This Project
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/sanjanach/Customer-Churn-Prediction.git
-    cd Customer-Churn-Prediction
-    ```
-2.  **Install the required dependencies:**
-    ```bash
-    pip install pandas numpy seaborn matplotlib plotly scikit-learn xgboost
-    ```
-3.  **Launch the Jupyter Notebook:**
-    ```bash
-    jupyter notebook predict_customerchurn.ipynb
-    ```
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Plotly
+- Matplotlib
 
 ## Model Performance
 
-The project concluded that the Random Forest Classifier performed slightly better for this dataset.
+Both models performed well, with Gradient Boosting achieving a slightly higher accuracy.
 
--   **Random Forest Accuracy:** **86.5%**
--   **XGBoost Accuracy:** **86.3%**
+| Model | Accuracy | Precision (Churn) | Recall (Churn) |
+| :--- | :---: | :---: | :---: |
+| Random Forest | 85.88% | 0.77 | 0.44 |
+| **Gradient Boosting** | **86.16%** | **0.80** | **0.43** |
 
-**Random Forest Classification Report:**
+The Gradient Boosting model was selected as the final model due to its superior overall accuracy and precision in identifying customers who are likely to churn.
