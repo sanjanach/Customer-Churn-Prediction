@@ -13,9 +13,9 @@ This project presents a data-driven approach to predicting customer churn for a 
 
 Both models performed well, with Gradient Boosting achieving a slightly higher accuracy.
 
-| Model | Accuracy | Precision (Churn) | Recall (Churn) |
-| :--- | :---: | :---: | :---: |
-| Random Forest | 85.88% | 0.77 | 0.44 |
-| **Gradient Boosting** | **86.16%** | **0.80** | **0.43** |
+| Model | Accuracy | 
+| :--- | :---: | 
+| Random Forest | 85.88% |
+| **Gradient Boosting** | **86.16%** |
 
 The Gradient Boosting model was selected as the final model due to its superior overall accuracy and precision in identifying customers who are likely to churn.
